@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <style media="screen">
+          div{
+            color:red;
+            font-size: 30px;
+          }
+        </style>
+      </head>
+      <body>
+          <div>
+              !!!!Hola mundo!!!!
+          </div>
+          <p>
+              Prueba de variable aquí debe de estar el valor {{variable1}}
+          </p>
+          <section>
+            Persona: {{persona.nombre}} {{persona.apellido}}
+          </section>
+
+          {% for el in element %}
+            <p>{{el}}</p>
+          {% endfor %}
+
+      </body>
+  </html>

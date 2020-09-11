@@ -1,0 +1,31 @@
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <style media="screen">
+      h1{
+        color:green;
+      }
+
+    </style>
+    <title>
+    {% block title %} {% endblock %}
+    </title>
+  </head>
+  <body>
+    <h1>
+        Mi sitio WEB...
+    </h1>
+    <h3>
+        herencia de templates
+    </h3>
+
+    {% block content %} {% endblock %}
+  </body>
+  <footer>
+    <p>
+      Pie de página
+    </p>
+  </footer>
+</html>
